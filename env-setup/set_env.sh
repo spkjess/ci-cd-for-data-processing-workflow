@@ -30,9 +30,9 @@ export DATAFLOW_JAR_BUCKET_PROD="${GCP_PROJECT_ID}-composer-dataflow-source-${PR
 export INPUT_BUCKET_PROD="${GCP_PROJECT_ID}-composer-input-${PROD}"
 export RESULT_BUCKET_PROD="${GCP_PROJECT_ID}-composer-result-${PROD}"
 export DATAFLOW_STAGING_BUCKET_PROD="${GCP_PROJECT_ID}-dataflow-staging-${PROD}"
-export COMPOSER_REGION='asia-southeast1'
+export COMPOSER_REGION='asia-south1'
 export RESULT_BUCKET_REGION="${COMPOSER_REGION}"
-export COMPOSER_ZONE_ID='asia-southeast1-a'
+export COMPOSER_ZONE_ID='asia-south1-a'
 
 export COMPOSER_ENV_NAME='data-pipeline-composer'
 export SOURCE_CODE_REPO='data-pipeline-source'
